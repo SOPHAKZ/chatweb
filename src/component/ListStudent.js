@@ -4,7 +4,6 @@ import Loader from "./common/Loader";
 import { Link, Navigate } from "react-router-dom";
 const ListStudent = () =>
 {
-    const [selectedUser, setSelectedUser] = useState(null); // Track selected user
 
     const showUserApi = 'http://157.245.205.230:8080/api/v1/user/all-users'; // API endpoint
     const [students, setStudents] = useState([]);

@@ -2,13 +2,12 @@ import AddStudent from "./component/AddStudent";
 import ListStudent from "./component/ListStudent";
 import EditStudent from "./component/EditStudent";
 import StudentView from "./component/StudentView";
-import { BrowserRouter as Router, Routes, Route, Link, useLocation, Navigate } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, useLocation, Navigate } from "react-router-dom";
 import "./App.css"
 import Header from "./component/common/Header";
 import Login from "./component/Login";
 import PrivateRoute from "./component/PrivateRoute";
 import Chat from "./socket/Chat";
-// import ChatPage from "./component/ChatPage";
 
 function Layout()
 {

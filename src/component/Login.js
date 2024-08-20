@@ -1,7 +1,7 @@
 
 
 import React, { useState } from 'react';
-import { MDBBtn, MDBContainer, MDBCard, MDBCardBody, MDBInput, MDBRow, MDBCol } from 'mdb-react-ui-kit';
+import { MDBContainer, MDBCard, MDBCardBody, MDBInput, MDBRow, MDBCol } from 'mdb-react-ui-kit';
 import { useNavigate } from 'react-router-dom';
 import './css/Student.css';
 
