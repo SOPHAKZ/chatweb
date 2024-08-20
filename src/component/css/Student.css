@@ -1,0 +1,78 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.user-form {
+    max-width: 500px;
+    margin: 0px auto;
+
+    padding: 35px 35px 50px 35px;
+    margin-top: 50px;
+    background-color: #ffffff;
+}
+
+.form-control {
+    border-radius: 0px !important;
+}
+
+.form-label {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.submit-btn {
+    border-radius: 0px;
+    width: 100%;
+    margin-top: 15px;
+    background-color: #004466;
+    border: 0px !important;
+}
+
+.submit-login {
+    border-radius: 0px;
+    width: 70%;
+    margin-top: 15px;
+    background-color: #004466;
+    border: 0px !important;
+}
+
+.heading {
+    padding: 0px 0px 15px 0px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.heading p {
+    font-size: 25px !important;
+    font-weight: 700;
+
+}
+
+.fa {
+    border: 1px solid #004466;
+    padding: 3px;
+    margin-right: 10px;
+    background-color: rgb(234, 234, 234);
+    color: #004466;
+}
+
+.fa-trash-o {
+    /* color: rgb(255, 0, 0); */
+
+    color: #000;
+    border: 1px solid red;
+    background-color: #ffffff;
+
+}
+
+.cascading-right {
+    margin-right: -50px;
+}
+
+@media (max-width: 900px) {
+    .cascading-right {
+        margin-right: 0;
+    }
+}

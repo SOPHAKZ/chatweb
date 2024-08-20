@@ -1,0 +1,17 @@
+/* Common.css */
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 1rem;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.btn-outline-light {
+    border-color: white;
+    color: white;
+}
